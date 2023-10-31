@@ -78,13 +78,14 @@ div.main-box div.block img{
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   div.emblem-box {
     width: 25%;
     margin: 0 auto;
   }
   div.title-box {
     width: 75%;
+    margin-top: 5%;
     padding: 0.2em;
     text-align: center;
   }
