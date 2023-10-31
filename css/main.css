@@ -1,3 +1,8 @@
 body {
   background-color: #6495ED;
+  font-size: 2em;
+}
+
+span.title {
+  font-size: 150%;
 }
