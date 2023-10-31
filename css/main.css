@@ -1,8 +1,107 @@
-body {
-  background-color: #6495ED;
+body{
+  color: #333333;
   font-size: 2em;
+  padding: 0;
+  margin: 0;
 }
 
-span.title {
-  font-size: 150%;
+h1, h2, h3 {font-weight: normal;}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+#content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 30em;
+}
+div.head-box{
+  display: flex;
+  width: 100%;
+}
+
+div.title-box {
+  padding: 0.5em;
+  margin: 0 0.5em;
+}
+
+div.title-box h1 {
+  padding: 0;
+  font-size: 175%;
+}
+
+div.emblem-box {
+  width: 7em;
+  margin: 0;
+}
+div.emblem-box img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.nav-box ul {
+  display: table;
+  list-style-type: none;
+  padding: 0;
+}
+
+div.nav-box ul li {
+  float: left;
+  padding: 0;
+}
+div.nav-box ul li:after {
+  content: "\00b7";
+  padding: 0 0.5em;
+}
+div.nav-box ul li:last-child:after { content: none; }
+
+div.nav-box .email {
+  font-size: 120%;
+}
+
+div.main-box {
+display: flex;
+flex-direction: row;
+}
+div.main-box div.block {
+  width: 10em;
+  margin: 0.5em auto;
+  text-align: center;
+}
+div.main-box div.block img{
+  width: 100%;
+  margin: 0.2em 0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  div.emblem-box {
+    width: 25%;
+    margin: 0 auto;
+  }
+  div.title-box {
+    width: 75%;
+    padding: 0.2em;
+    text-align: center;
+  }
+  div.title-box h1 {
+    padding: 0;
+    margin: 0;
+  }
+  div.nav-box ul {
+    margin: 0.2em auto;
+  }
+  div.main-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+  }
+  div.main-box div.block {
+    width: 90%;
+    margin: 0.5em auto;
+  }
 }
