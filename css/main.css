@@ -101,9 +101,13 @@ div.main-box div.block img{
   div.title-box h1 {
     padding: 0;
     margin: 0;
+    font-size: 160%;
   }
   div.nav-box ul {
-    margin: 0.2em auto;
+    margin: 0.5em auto;
+  }
+  div.nav-box ul li {
+    font-size: 90%;
   }
   div.main-box {
     display: flex;
