@@ -79,6 +79,9 @@ div.main-box div.block img{
 
 
 @media only screen and (max-width: 1200px) {
+  body{
+    font-size: 3em;
+  }
   div.emblem-box {
     width: 25%;
     margin: 0 auto;
@@ -104,5 +107,6 @@ div.main-box div.block img{
   div.main-box div.block {
     width: 90%;
     margin: 0.5em auto;
+    font-size: 125%;
   }
 }
