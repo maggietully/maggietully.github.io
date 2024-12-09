@@ -112,7 +112,7 @@ div.main-box div.block img{
   div.main-box {
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
+    margin-top: 0em;
   }
   div.main-box div.block {
     width: 90%;
