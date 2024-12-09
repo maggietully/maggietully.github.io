@@ -74,7 +74,7 @@ flex-direction: row;
 div.main-box div.block {
   width: 10em;
   margin: 0.5em auto;
-  text-align: center;
+  text-align: left;
 }
 div.main-box div.block img{
   width: 100%;
